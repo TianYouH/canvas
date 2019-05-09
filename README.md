@@ -3,7 +3,7 @@ canvas 学习专用仓库
 
 注：Canvas是基于状态的绘制
 
-## one
+## One
 
 ### 准备工作
 
@@ -23,3 +23,17 @@ canvas 学习专用仓库
 > 要设置画布的大小，只有这两种方法
   - 在`<canvas>`标签中设置；
   - 在JS代码中设置canvas的属性
+
+## Two
+
+### 绘制折线
+
+- beginPath(): 防止绘制方法重复绘制，在每次绘制之前加上beginPath()，代表下次绘制的起始之处为beginPath()之后的代码。
+
+### 绘制矩形
+
+- closePath(): closePath() 通过添加一条线条连接当前点和子路径起始点来关闭它
+- rect(x, y, width, height); // Canvas API中已经帮我们封装好了一个绘制矩形的方法——rect()
+
+- fillStyle 选择油漆桶的颜色
+- fill 确定填充
