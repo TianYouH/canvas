@@ -23,5 +23,25 @@ export default new Router({
       name: 'two',
       component: () => import('./views/two')
     },
+    {
+      path: '/three',
+      name: 'three',
+      component: () => import('./views/three')
+    },
+    {
+      path: '/four',
+      name: 'four',
+      component: () => import('./views/four')
+    },
+    {
+      path: '/five',
+      name: 'five',
+      component: () => import('./views/five')
+    },
+    {
+      path: '/six',
+      name: 'six',
+      component: () => import('./views/six')
+    }
   ]
 })

@@ -3,7 +3,11 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/one">One</router-link> |
-      <router-link to="/two">Two</router-link>
+      <router-link to="/two">Two</router-link> |
+      <router-link to="/two">Three</router-link> |
+      <router-link to="/two">Four</router-link> |
+      <router-link to="/two">Five</router-link> |
+      <router-link to="/two">Six</router-link>
     </div>
     <router-view class="router-box" />
   </div>
