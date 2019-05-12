@@ -1,6 +1,6 @@
 <template>
   <div id='four'>
-    <canvas id="four-canvas" style="barder: 1px solid #000;" ></canvas>
+    <canvas id="four-canvas" style="border: 1px solid #000;" ></canvas>
   </div>
 </template>
 <script>
