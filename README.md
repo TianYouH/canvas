@@ -37,3 +37,11 @@ canvas 学习专用仓库
 
 - fillStyle 选择油漆桶的颜色
 - fill 确定填充
+
+## Three
+
+## Four
+
+## Five
+
+## Six
