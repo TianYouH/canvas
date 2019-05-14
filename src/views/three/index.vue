@@ -21,6 +21,16 @@ export default {
   },
   methods: {
     startDraw() {
+      const context = this.context;
+      console.log('你好世界');
+      context.beginPath();
+      context.moveTo(48, 58);
+      context.lineTo(309, 58);
+      context.lineTo(309, 180);
+      context.lineWidth = 5;
+      context.strokeStyle = 'red';
+
+      context.stroke();
 
     }
   }
