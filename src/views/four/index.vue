@@ -21,8 +21,8 @@ export default {
   },
   methods: {
     startDraw() {
-      this.drawColor();
-      this.drawLinearGradien();
+      // this.drawColor();
+      // this.drawLinearGradien();
       this.drawRadialGradient();
     },
     // 基本颜色 练习
@@ -55,7 +55,21 @@ export default {
     },
     // 径向渐变颜色 练习
     drawRadialGradient() {
-      
+      const context = this.context;
+
+      const grd = context.createRadialGradient(370, 380, 50, 370, 380, 200);
+
+       //添加颜色断点
+      grd.addColorStop(0,"olive");
+      grd.addColorStop(0.25,"maroon");
+      grd.addColorStop(0.5,"aqua");
+      grd.addColorStop(0.75,"fuchsia");
+      grd.addColorStop(1,"teal");
+
+      context.fillStyle = grd;
+
+      context.fillRect(150, 150, 500, 500);
+
     }
   }
 }

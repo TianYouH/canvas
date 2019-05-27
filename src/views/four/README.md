@@ -18,5 +18,6 @@
     3. 应用渐变：`context.fillStyle = grd; context.strokeStyle = grd;`
   - 径向：
     1. 添加渐变圆：`const grd = context.createRadialGradient(x0,y0,r0,x1,y1,r1);`
+      - x0开始圆形的 x 轴坐标。y0开始圆形的 y 轴坐标。r0开始圆形的半径。x1结束圆形的 x 轴坐标。y1结束圆形的 y 轴坐标。r1结束圆形的半径。
     2. 为渐变线添加关键色(类似于颜色断点)：`grd.addColorStop(stop,color);`
     3. 应用渐变：`context.fillStyle = grd; context.strokeStyle = grd;`
